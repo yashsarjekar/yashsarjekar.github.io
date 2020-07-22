@@ -1,0 +1,252 @@
+.bgimg {
+	background-image: url('../img/office2.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	
+	height: 760px;
+}
+.imgtext {
+   padding-top: 250px;
+   box-sizing: border-box;	
+}
+.imgtext h2 {
+    font-size: 42px;
+}
+.imgtext h1 {
+	font-size: 62px;
+}
+.skill-6 {
+	height: 100px;
+	width: 100px;
+	background-color: plum;
+	border-radius: 50%;
+	display: inline-block;
+}
+/*...........................our Services......................*/
+.ourservices {
+	padding: 200px 0px;
+}
+.ourservices h1 {
+	font-size: 50px;
+}
+.rowsetting {
+	padding: 40px 0px;
+}
+.imgsetting {
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+.fa-shopping-cart {
+	padding: 20px;
+}
+.fa-desktop {
+	padding: 26px;
+}
+.fa-lock {
+	padding: 25px;
+}
+.rowsetting p {
+	padding: 4px;
+	color: #979A9A;
+}
+.rowsetting h2 {
+	padding: 10px;
+	font-size: 30px;
+}
+/*.....................portfolio..................*/
+.portfolio {
+	position: absolute;
+	left: 0;
+	right: 0;
+	height: 1100px;
+	padding: 100px 0px 50px;
+}
+.portfolio h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+.card {
+	margin-top: 40px;
+}
+/*........OurTeam.......................*/
+.ourteam {
+	width: 100%;
+	padding: 200px 0px;
+}
+.ourteamrow {
+	padding: 50px 0px;
+}
+/*...............about................*/
+.about {
+	padding: 100px 0px 50px;
+}
+.headerabout {
+	float: left;
+}
+/*...........Contact................*/
+.contact {
+	padding: 100px 0px;
+}
+	/* Conatct start */
+
+        .header-title
+        {
+          text-align: center;
+          color:#00bfff;
+        }
+
+        #tip 
+        {
+            display:none;  
+        }
+
+        .fadeIn
+        {
+          animation-duration: 3s;
+        }
+
+        .form-control
+        {
+        	border-radius:0px;
+        	border:1px solid #EDEDED;
+        }
+
+        .form-control:focus
+        {
+        	border:1px solid #00bfff;
+        }
+
+        .textarea-contact
+        {
+        	resize:none; 
+        }
+
+        .btn-send
+        {
+        	border-radius: 0px;
+        	border:1px solid #00bfff;
+        	background:#00bfff;
+        	color:#fff; 
+        }
+
+        .btn-send:hover
+        {
+        	border:1px solid #00bfff;
+        	background:#fff;
+        	color:#00bfff;
+        	transition:background 0.5s;   
+        }
+
+        .second-portion
+        {
+        	margin-top:50px; 
+        }
+
+		        @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+		@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+		.box > .icon { text-align: center; position: relative; }
+		.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #00bfff; vertical-align: middle; }
+		.box > .icon:hover > .image { background: #333; }
+		.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+		.box > .icon:hover > .image > i { color: white !important; }
+		.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+		.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+		.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+		.box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+		.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+		.box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+		.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+		.box .space { height: 30px; }
+
+		@media only screen and (max-width: 768px)
+		{
+			.contact-form
+			{
+				padding: 50px 0px;
+			}
+
+			.btn-send
+			{
+				width: 100%;
+				padding:10px; 
+			}
+
+			.second-portion
+			{
+				margin-top:25px; 
+			}
+		}
+		/* Conatct end */
+}
+}
+/*-----------Model------*/		
+
+
+	/*------Responsive----*/
+	@media screen and (max-width: 768px ) {
+        .portfolio {
+			height: 950px;
+		}
+	}
+	@media screen and (max-width: 574px ) {
+         .portfolio {
+			height: 2780px;
+		}
+	
+
+	}
+	@media (max-width: 479px ){
+		.portfolio {
+			height: 2550px;
+		}
+	
+	}
+	@media (min-width: 350px ) and (max-width: 400px ) {
+		.portfolio {
+			height: 2400px;
+		}
+	
+	}
+	@media (min-width: 300px ) and (max-width: 350px ){
+        .portfolio {
+			height: 2200px;
+		}
+	
+	}
+
+.bglogin {
+ 	background-image: url('../img/dittologin.jpg');
+	background-size: 100% 100%;
+	
+	
+	height: 760px;
+ }
+.loginlanding {
+	position: relative;
+	bottom: 100px;
+}
+@media only screen and (max-width: 768px)
+		{
+			
+		.bglogin {
+			padding: 100px 0px 0px;
+ 	background-image: url('../img/dittologin.jpg');
+	background-size: 100% 100%;
+	position: fixed;
+	right: 0;
+	left: 0;
+	height: 900px;
+ }
+ .loginlanding {
+	position: relative;
+	bottom: 300px;
+}
+		}
+.bglog {
+	background-image: url('../img/Dashboard1.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	height: 760px;
+}		
