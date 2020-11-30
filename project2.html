@@ -87,7 +87,62 @@
 </p>
       </div>
    </div>
+
+   <div class="row">
+    <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-block m-auto" style="padding:50px 50px;">
+    <h4 style="font-family:Times New Roman;color:blue">2. Data Acquisition and Cleaning</h4>
+    <p style="font-family:Times New Roman;">DataLink: https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_MWi
+        ll use Scarborough dataset which we scrapped from wikipedia. Dataset
+        consisting of latitude and longitude, zip codes.
+        2.1 Foursquare API Data
+        We will need data about different venues in different neighborhoods of that specific
+        borough. In order to gain that information, we will use "Foursquare" locational
+        information. Foursquare is a location data provider with information about all manner
+        of venues and events within an area of interest. Such information includes venue
+        names, locations, menus and even photos. As such, the foursquare location platform
+        will be used as the sole data source since all the stated required information can be
+        obtained through the API.
+        After finding the list of neighborhoods, we then connect to the Foursquare API to
+        gather information about venues inside each and every neighborhood. For each
+        neighborhood, we have chosen the radius to be 100 meters.
+        The data retrieved from Foursquare contained information of venues within a
+        specified distance of the longitude and latitude of the postcodes. The information
+        obtained per venue as follows:
+        1. Neighborhood
+        2. Neighborhood Latitude
+        3. Neighborhood Longitude
+        4. Venue
+        5. Name of the venue e.g. the name of a store or restaurant
+        6. Venue Latitude
+        7. Venue Longitude
+        8. Venue Category
+    </p>
+    </div>
+    </div>
    
+    <div class="row">
+        <div class="col-lg-10 col-md-10 col-sm-10 col-10 d-block m-auto" style="padding:50px 50px;">
+        <h4 style="font-family:Times New Roman;color:blue">3. Methodology Section</h4>
+        <p style="font-family:Times New Roman;"><b>Clustering Approach:</b>
+            To compare the similarities of two cities, we decided to explore neighborhoods,
+            segment them, and group them into clusters to find similar neighborhoods in a big city
+            like New York and Toronto. To be able to do that, we need to cluster data which is a
+            form of unsupervised machine learning: k-means clustering algorithm. </p>
+
+        <b>Using K-Means Clustering Approach</b>
+        <img height="500px" width="100%" src="img/pic1.JPG"/>
+        <b>Most Common venues near Neighborhood</b>
+        <img height="500px" width="100%" src="img/pic2.JPG"/>
+        <p>Work Flow:
+Using credentials of Foursquare API features of near-by places of the neighborhoods
+would be mined. Due to http request limitations the number of places per neighborhood
+parameter would reasonably be set to 100 and the radius parameter would be set to 500.</p>
+        </div>
+     </div>
+
+
+
+
   </div>
 <script>
 </script>
